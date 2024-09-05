@@ -1,4 +1,4 @@
-import { Box, Loader, OrbitControls } from "@react-three/drei"
+import { Loader, OrbitControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import Experience from "./Experience"
 
