@@ -44,7 +44,7 @@ export function Shattered(props) {
 			mesh.directionVector = meshWorldPosition.clone().sub(groupWorldPosition).normalize()
 
 			// Set a target position so that the mesh knows where to go after scrolling
-			mesh.targetPosition = mesh.originalPosition.clone().add(mesh.directionVector.clone().multiplyScalar(3))
+			mesh.targetPosition = mesh.originalPosition.clone().add(mesh.directionVector.clone().multiplyScalar(1.5))
 
 		})
 	}, [])
