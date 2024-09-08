@@ -1,20 +1,20 @@
-import { Loader, OrbitControls } from "@react-three/drei"
+import { Loader, ScrollControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import Experience from "./Experience"
 
 function App() {
 
-  return (
-    <>
-      <Canvas>
-        <OrbitControls />
-        <color args={['#000000']} attach={'background'} />
-        {/* <Box/> */}
-        <Experience />
-      </Canvas>
-      <Loader />
-    </>
-  )
+	return (
+		<>
+			<Canvas>
+				<color args={['#000000']} attach={'background'} />
+				<ScrollControls pages={4}>
+					<Experience />
+				</ScrollControls>
+			</Canvas>
+			<Loader />
+		</>
+	)
 }
 
 export default App
