@@ -5,12 +5,11 @@ import { Shattered } from './Shattered'
 const Experience = () => {
 	return (
 		<>
-		<Float>
-
-		<Text maxWidth={1} font='/BrokenGlass.ttf' textAlign='center' position={[0,0,-2]}>
-			Shattered Glass
-		</Text>
-		</Float>
+			<Float>
+				<Text maxWidth={1} font='/BrokenGlass.ttf' textAlign='center' position={[0, 0, -2]}>
+					Shattered Glass
+				</Text>
+			</Float>
 			<Float rotationIntensity={2}>
 				<Shattered />
 			</Float>
