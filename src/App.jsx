@@ -1,6 +1,7 @@
 import { Loader, ScrollControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
 import Experience from "./Experience"
+import Footer from "./Footer"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 				</ScrollControls>
 			</Canvas>
 			<Loader />
+			<Footer/>
 		</>
 	)
 }
